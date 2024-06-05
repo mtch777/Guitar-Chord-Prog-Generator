@@ -1,0 +1,250 @@
+<div> <!--Settings Div-->
+  <div> <!--General Settings-->
+    <form action="/action_page.php">
+      <span>General Settings:</span>
+      <label for="keys">Key:</label>
+      <select id ="keySetting" name="keys">
+        <option value="C">C</option>
+        <option value="Db">Db</option>
+        <option value="D"selected>D</option>
+        <option value="Eb">Eb</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        <option value="F#">F#</option>
+        <option value="G">G</option>
+        <option value="Ab">Ab</option>
+        <option value="A">A</option>
+        <option value="Bb">Bb</option>
+        <option value="B">B</option>
+      </select>
+
+      <label for="scale">Scale:</label>
+      <select id ="scaleSetting" name="scale">
+        <option value="Maj" selected="selected">Maj</option>
+        <option value="Min">Min</option>
+      </select>
+
+      <label for="minFret">Min fret:</label>
+      <select id ="minFretSetting" name="scale">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+
+      <label for="maxFret">Max Fret:</label>
+      <select id ="maxFretSetting" name="scale">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14"selected>14</option>
+      </select>
+
+
+      
+
+      <input type="checkbox" id="Pentatonic" class="chordCheckbox" value="Pentatonic" checked>
+      <label>Pentatonic</label>
+
+      <input type="checkbox" id="relPentatonic" class="chordCheckbox" value="relPentatonic" checked>
+      <label>Rel Pentatonic</label>
+      
+      <input type="checkbox" id="showFretBoard" value="showFretBoard" class="WIP">
+      <label class="WIP">showFretBoard</label>
+      
+      <label for="random" class="WIP">Random:</label>
+      <select id ="random" name="random" class="WIP">
+        <option value="0" selected>0</option>
+        <option value="Off">Off</option>
+        <option value="Key">Key</option>
+        <option value="Scale">Scale</option>
+        <option value="Scale">Key & Scale</option>
+        <option value="Scale">Progression</option>
+        <option value="Scale">Everything</option>
+      </select>
+
+      <input id="settingsSubmit" type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div><!--Chord Settings-->
+    <form action="/action_page.php">
+      <span>Chord Settings:</span>
+      
+      <input type="checkbox" id="1Chord" class="chordCheckbox" value="one" checked>
+      <label>I</label>
+
+      <input type="checkbox" id="2Chord" class="chordCheckbox" value="two" checked>
+      <label>II</label>
+
+      <input type="checkbox" id="3Chord" class="chordCheckbox" value="three" checked>
+      <label>III</label>
+
+      <input type="checkbox" id="4Chord" class="chordCheckbox" value="four" checked>
+      <label>IV</label>
+
+      <input type="checkbox" id="5Chord" class="chordCheckbox" value="five" checked>
+      <label>V</label>
+
+      <input type="checkbox" id="6Chord" class="chordCheckbox" value="six" checked>
+      <label>VI</label>
+
+      <input type="checkbox" id="7Chord" class="chordCheckbox" value="seven" checked>
+      <label>VII</label>
+      
+      <input type="checkbox" id="7th" checked>
+      <label>7ths</label>
+
+      <input type="checkbox" id="9th" checked>
+      <label>9ths</label>
+
+      <input type="checkbox" id="11th" checked>
+      <label>11ths</label>
+
+      <input type="checkbox" id="13th">
+      <label>13ths</label>
+      
+      <input type="checkbox" id="standard" class="WIP">
+      <label class="WIP">Standard Chords</label>
+      
+      <input type="checkbox" id="standard" class="WIP">
+      <label  class="WIP">Barre Chords</label>
+      
+      <input type="checkbox" id="standard" class="WIP">
+      <label class="WIP">Open Chords</label>
+      
+      <label for="minExt">Min Spice:</label>
+      <select id ="minExt" name="minExt">
+        <option value="0" selected>🫑Triad</option>
+        <option value="0.5">🌶️7th chord</option>
+        <option value="1">🌶️1 extesion</option>
+        <option value="2">🌶️7th + 1 ext.</option>
+        <option value="3">🌶️🌶️7th + 2 ext.</option>
+        <option value="4">🌶️🌶️🌶️7th + 3 ext.</option>
+        <option value="5">🥵7th + 4 ext.</option>
+      </select>
+      
+
+      <label for="maxExt">Max Spice:</label>
+      <select id ="maxExt" name="maxExt">
+        <option value="0">🫑Triad</option>
+        <option value="0.5">🌶️7th chord</option>
+        <option value="1"selected>🌶️1 extesion</option>
+        <option value="2">🌶️7th + 1 ext.</option>
+        <option value="3">🌶️🌶️7th + 2 ext.</option>
+        <option value="4">🌶️🌶️🌶️7th + 3 ext.</option>
+        <option value="5">🥵7th + 4 ext.</option>
+        <!--❄️💧💨🌶⛅🌋🔥☀️🥵-->
+        <!--🫑🌶️-->
+      </select>
+      
+      <input type="checkbox" id="bla" class="WIP">
+      <label class="WIP">Rootless</label>
+      
+      <input type="checkbox" id="bla" class="WIP">
+      <label class="WIP">Rooted</label>
+      
+      <input type="checkbox" id="bla" class="WIP">
+      <label class="WIP">Show Optional Notes</label>
+      
+      <input type="checkbox" id="bla" class="WIP">
+      <label class="WIP">Show Transition Solo Notes</label>
+      
+      <input type="checkbox" id="bla" class="WIP">
+      <label class="WIP">Show Transition Solo Notes with common notes in green</label>
+
+    </form>
+  </div>
+
+  <!--Progression Settings-->
+  <div>
+    <form action="/action_page.php">
+      <span>Progression Settings:</span>
+      
+      <label for="progression">Progression:</label>
+      <select id ="progression" name="progression" >
+        <option value="Chronological">Chronological</option>
+        <option value="Random" selected>Generate Random</option>
+        <option value="Random" class="WIP">From Library</option>
+        <option value="Random"  class="WIP">Manual Input</option>
+      </select>
+      
+      <label for="numChords"># of Random Chords:</label>
+      <select id ="numChords" name="numChords">
+        <option value="2">2</option>
+        <option value="3" >3</option>
+        <option value="4" selected>4</option>
+        <option value="8">8</option>
+      </select>
+
+      <label for="progOrder" class="WIP">Genre:</label>
+      <select id ="progOrder" name="progOrder" class="WIP">
+        <option value="Any">Any</option>
+        <option value="Pop">Pop</option>
+        <option value="Neo">Neo Soul</option>
+        <option value="Neo">Neo Soul</option>
+      </select>
+    </form>
+  </div>
+  <!--AI Settings-->
+  <div>
+    <form action="/action_page.php">
+      <span>AI Settings:</span>
+      
+      <label for="smoothStrength">Smoothing Strength:</label>
+      <select id ="smoothStrength" name="smoothStrength">
+        <option value="">Off</option>
+        <option value="5" selected>Chords within 5 frets of each other</option>
+        <option value="4">Chords within 4 frets of each other</option>
+        <option value="3">Chords within 3 frets of each other</option>
+        <option value="2">Chords within 2 frets of each other</option>
+        <option value="1">Chords within 1 fret of each other</option>
+      </select>
+      
+      <label for="smoothCalc">Chord reference point:</label>
+      <select id ="smoothCalc" name="smoothCalc">
+        <option value="7" selected>High Note Fret #</option>
+        <option value="6">Chord Avg Fret #</option>
+        <option value="5">Chord Root Note Fret #</option>
+      </select>
+      
+      <label for="smoothRef">Prog Reference point:</label>
+      <select id ="smoothRef" name="smoothRef">
+        <option value="first"selected>First chord in progression</option>
+        <option value="middle">Middle of fretboard</option>
+        <!--add bottom of fretboard?-->
+        <!--add top of fretboard?-->
+        <!--or just select the fret-->
+      </select>
+      
+      <label for="smoothDirection"class="WIP">Direction Preference:</label>
+      <select id ="smoothDirection" name="smoothDirection"class="WIP">
+        <option value="Pop">Any</option>
+        <option value="Pop">Ascending</option>
+        <option value="Pop">Descending</option>
+        <option value="Pop">Asc then Desc</option>
+        <option value="Pop">Desc then Asc</option>
+      </select>
+      
+      <label for="chordGen">Chord Gen:</label>
+      <select id ="chordGen" name="chordGen">
+        <option value="Pop">Off</option>
+        <option value="Pop">Invert existing shapes</option>
+        <option value="Pop">Generate new shapes</option>
+      </select>
+
+    </form>
+  </div>
+</div>
+<div id="chartDiv"></div>

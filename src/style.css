@@ -1,0 +1,22 @@
+table{
+  display:inline-block;
+  border-collapse: collapse;
+}
+caption{
+  line-height: 20px;
+}
+th{
+  border-bottom: 2pt solid black;
+  line-height: 20px;
+}
+td{
+  line-height: 25px;
+  box-sizing: border-box;
+}
+form span{
+  text-decoration: underline;
+}
+.WIP {
+  color: #D3D3D3;
+  display: none;
+}
